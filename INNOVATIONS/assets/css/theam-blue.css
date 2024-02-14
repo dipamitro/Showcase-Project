@@ -1,0 +1,94 @@
+:root {
+  --color-primary-blue: #007bff;
+  --color-secondary-blue: #222222;
+  --color-body: #6e777d;
+  --color-heading-1: #111111;
+  --color-background-secondary-blue: #222222;
+  --color-background-shade-blue: #f0f0f0;
+  --color-background-white-blue: #f9f9f9;
+  --color-white: #fff;
+  --color-text-white: #fff;
+  --color-text-shade-blue: #777777;
+  --color-shape-shade-blue: #dcdcdc;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2b8;
+  --color-facebook: #1877f2;
+  --color-twitter: #1da1f2;
+  --color-youtube: #ff0000;
+  --color-linkedin: #0a66c2;
+  --color-pinterest: #bd081c;
+  --color-instagram: #c32aa3;
+  --color-vimeo: #1ab7ea;
+  --color-twitch: #6441a5;
+  --color-discord: #7289da;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+  --transition: 0.3s;
+  --font-primary-blue: "Montserrat", sans-serif;
+  --font-secondary-blue: "Open Sans", sans-serif;
+  --font-footer-blue: "Roboto", Sans-serif;
+  --font-size-b2: 1.8rem;
+  --font-size-b3: 2.4rem;
+  --line-height-b1: 3rem;
+  --line-height-b2: 2.8rem;
+  --line-height-b3: 1.8;
+  --h1: 6rem;
+  --h2: 4.4rem;
+  --h3: 3.2rem;
+  --h4: 2.6rem;
+  --h5: 2rem;
+  --h6: 1.8rem;
+}
+.rts-btn {
+  display: inline-block;
+  text-decoration: none; /* Adding this to remove underlines on anchor tags */
+  cursor: pointer; /* Adding this to show cursor pointer on hover */
+  border-radius: 10px; /* Adding a border radius for rounded corners */
+}
+
+.rts-btn.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: 2px solid var(--color-primary);
+}
+
+.rts-btn.btn-primary:hover {
+  background: var(
+    --background-accent-hover
+  ); /* Using the custom background-accent-hover color */
+  border: 2px solid var(--color-primary);
+}
+
+.rts-btn.btn-secondary {
+  background: var(--color-white);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.rts-btn.btn-secondary:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+img {
+  border-radius: 10px;
+}
+.testimonial-main-wrapper {
+  border-radius: 10px;
+}
+.dropdown-menu {
+  border-radius: 10px !important;
+}

@@ -1,0 +1,233 @@
+@media (max-width: 1400px) {
+  .testimonial-text {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .author {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 49px;
+    line-height: 70px;
+  }
+  @keyframes zoom-inout {
+    0% {
+      background-size: 111%;
+    }
+    100% {
+      background-size: 131%;
+    }
+  }
+
+  .left-quote {
+    left: 75px;
+    top: 20%;
+  }
+  .right-quote {
+    right: 75px;
+    bottom: 20%;
+  }
+  .left-quote img {
+    width: 50px;
+  }
+  .right-quote img {
+    width: 50px;
+  }
+  .testimonial-text {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .about-content-wrapper .secondary-title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-md.navbar-nav {
+    display: none;
+  }
+  .hero-title {
+    font-size: 42px;
+    line-height: 56px;
+  }
+
+  .pages ul li {
+    margin-right: 40px;
+    margin-left: 0;
+  }
+  @keyframes zoom-inout {
+    0% {
+      background-size: 143%;
+    }
+    100% {
+      background-size: 163%;
+    }
+  }
+  .resarvation-location-title {
+    font-size: 42px;
+
+    line-height: 50px;
+  }
+  .tea-menu-img-area {
+    margin-right: 0 !important;
+  }
+  .left-quote {
+    left: 30px;
+  }
+  .left-quote img {
+    width: 40px;
+  }
+  .right-quote {
+    right: 30px;
+  }
+  .right-quote img {
+    width: 40px;
+  }
+  .testimonial-text {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .testimonial-text h3 {
+    font-size: 26px;
+    line-height: 1.1;
+  }
+  .about-content-wrapper .secondary-title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section {
+    animation: none;
+  }
+  .rts-btn {
+    padding: 15px 20px;
+  }
+  .resarvation-location-title {
+    font-size: var(--font-size-resarvation-md);
+
+    line-height: 56px;
+  }
+  .left-quote img {
+    width: 20px;
+  }
+  .right-quote img {
+    width: 20px;
+  }
+  .left-quote {
+    left: 10px;
+  }
+  .right-quote {
+    right: 10px;
+  }
+  .testimonial-text {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .testimonial-text h3 {
+    font-size: 23px;
+    line-height: 1.1;
+  }
+  .author {
+    margin: 0 !important;
+  }
+  .about-content-wrapper .secondary-title {
+    font-size: 42px;
+  }
+  .tea-menu-img-section {
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 576px) {
+  .nav-button {
+    display: none;
+  }
+  .hero-title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .resarvation-location-title {
+    font-size: var(--font-size-resarvation-sm);
+    line-height: 45px;
+  }
+  .left-quote {
+    display: none;
+  }
+  .right-quote {
+    display: none;
+  }
+  .testimonial-text h3 {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+  .service-title {
+    font-size: 46px;
+  }
+  .single-menu-img a img {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .single-menu-img {
+    text-align: center;
+  }
+  .menu-price {
+    margin: 10px auto 0 auto;
+    max-width: fit-content;
+  }
+  .title-img,
+  .tea-menu-content-wrapper .secondary-title {
+    text-align: center !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .secondary-title {
+    font-size: 30px !important;
+  }
+  .next-prev-btn {
+    display: none;
+  }
+  footer .top-footer-section .container div {
+    padding-left: 3px;
+  }
+}
+@media (max-width: 400px) {
+  .resarvation-location-title {
+    font-size: 24px;
+
+    line-height: 35px;
+  }
+  .resarvation-time {
+    font-size: 14px;
+  }
+  .navbar-brand {
+    width: 120px;
+  }
+  .hero-button-area {
+    flex-direction: column;
+  }
+  .rts-btn {
+    padding: 18px 20px;
+  }
+  .reservation-area-section {
+    padding: 10px;
+  }
+  .theme-toggler-container {
+    margin-right: 0;
+  }
+}
+@media (max-width: 300px) {
+  /* .reservation-area-section {
+    padding: 10px;
+  } */
+  .footer-address ul li,
+  .footer-address ul li a {
+    margin-left: 3px !important;
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .menu-area {
+    width: 42px;
+  }
+}
