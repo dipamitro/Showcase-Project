@@ -1122,10 +1122,26 @@ footer {
   color: #959595;
 }
 
-@media only screen and (max-width: 775px) and (min-width: 400px) { 
+@media only screen and (max-width: 756px) and (min-width: 400px) { 
   #services .title-icon {
   font-size: 25px;
   margin-right: 15px;
   margin-top: 50px;
   color: #959595;
+}} 
+@media only screen and (max-width: 756px) and (min-width: 570px) { 
+  #services  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200 !important;
+    font-size: 12px;
+    line-height: 1.6em;
+}
+#services .fa {
+  display: inline-block;
+  font: normal normal normal 24px;
+  font-size: 14px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #DD5902 !important ;
 }} 
